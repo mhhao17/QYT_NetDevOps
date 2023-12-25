@@ -15,11 +15,3 @@ print('=' * length)
 print(line1)
 print(line2)
 print('=' * length)
-
-# result
-'''
-====================================================================================
-Dearptment1 name:Security		Manager:cq_bomb		COURSE FEES:456789.12	The End!
-Dearptment2 name:Python			Manager:qinke	    COURSE FEES:1234.34		The End!
-====================================================================================
-'''
