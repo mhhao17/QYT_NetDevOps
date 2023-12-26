@@ -7,7 +7,7 @@ result = re.match(r'(TCP)\s+server\s+(?P<server>[\d.]+:\d+)\s+localserver\s+(?P<
 idle_parts = result[3].split(':')
 hours, minutes, seconds = map(int, idle_parts)
 
-idle_formatted = '{:02}時{:02}分{:02}秒'.format(hours, minutes, seconds)
+idle_formatted = '{:02} 小時 {:02}分鐘 {:02}秒'.format(hours, minutes, seconds)
 
 if hours < 10:
     idle_formatted = '{} 小時 {:02}分鐘 {:02}秒'.format(hours, minutes, seconds)
