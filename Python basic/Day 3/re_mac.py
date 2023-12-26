@@ -6,5 +6,5 @@ result = re.match(r'(\d+)\s+([0-9a-fa-f]{4}\.[0-9a-fa-f]{4}\.[0-9a-fa-f]{4})\s+(
 
 print('%-10s : %s' % ('VLAN ID', result[0]))
 print('%-10s : %s' % ('MAC', result[1]))
-print('%-10s : %s' % ('TYPE', result[-2]))
+print('%-10s : %s' % ('Type', result[-2]))
 print('%-10s : %s' % ('Interface', result[-1]))
