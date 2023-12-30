@@ -1,5 +1,9 @@
 import random
 
+'''
+功能 : 產生一個隨機的IPv4位址
+create by Allen on 2023/12/25
+'''
 # 定義四個變數，分別代表四個IP位址的數字, 範圍是1~254
 a = random.randint(1, 254)
 b = random.randint(1, 254)
