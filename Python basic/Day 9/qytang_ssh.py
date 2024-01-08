@@ -25,3 +25,4 @@ if __name__ == '__main__':
     print(qytang_ssh('192.168.10.138', 'root', 'Netdevops', cmd='pwd'))
     print('網關為:')
     print(ssh_get_route('192.168.10.138', 'root', 'Netdevops'))
+
